@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "80831531928",
+    "firebase_url": "https://busroute-70729.firebaseio.com",
+    "project_id": "busroute-70729",
+    "storage_bucket": "busroute-70729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80831531928:android:c30d2e58dbee1a07",
+        "android_client_info": {
+          "package_name": "com.example.busroute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80831531928-7731oibrokqh9cjb1jbq30biu9m9sr6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5HyPK-OH18-rS80Jh9zxAoMAfR_Gahs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80831531928-7731oibrokqh9cjb1jbq30biu9m9sr6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80831531928:android:e19102df2b829644",
+        "android_client_info": {
+          "package_name": "com.example.busroutebackend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80831531928-u7l3ugik5is3vliva3pv6p6n4r32hrbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.busroutebackend",
+            "certificate_hash": "d70da7917302611fe9fcbb17a2e2a711ea2a2777"
+          }
+        },
+        {
+          "client_id": "80831531928-7731oibrokqh9cjb1jbq30biu9m9sr6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5HyPK-OH18-rS80Jh9zxAoMAfR_Gahs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80831531928-7731oibrokqh9cjb1jbq30biu9m9sr6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
