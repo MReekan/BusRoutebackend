@@ -48,14 +48,14 @@ public class AddRouteActivity extends AppCompatActivity {
         Intent intent =getIntent();
         routes =new ArrayList<>();
 
-        String id=intent.getStringExtra(MainActivity.TRAVALLING_ID);
+        String travellingId=intent.getStringExtra(MainActivity.TRAVALLING_ID);
         String location_1=intent.getStringExtra(MainActivity.FIRST_LOCATION);
         String location_2=intent.getStringExtra(MainActivity.SECOND_LOCATION);
 
         textViewLocationOne.setText(location_1);
         textViewLocationTwo.setText(location_2);
 
-        databaseRoute = FirebaseDatabase.getInstance().getReference("Routes").child(id);
+        databaseRoute = FirebaseDatabase.getInstance().getReference("Routes").child(travellingId);
 
            addRoute.setOnClickListener(new View.OnClickListener() {
                @Override
@@ -77,7 +77,6 @@ public class AddRouteActivity extends AppCompatActivity {
                 for (DataSnapshot routeSnapshot : dataSnapshot.getChildren()) {
                     Route route = routeSnapshot.getValue(Route.class);
                     routes.add(route);
-
                 }
                 RouteList adapter = new RouteList(AddRouteActivity.this, routes);
                 listViewRoutes.setAdapter(adapter);
@@ -96,9 +95,16 @@ public class AddRouteActivity extends AppCompatActivity {
 
 
         if (!TextUtils.isEmpty(routeNumber)){
+//            it's route id
             String id=databaseRoute.push().getKey();
+
+
             Route route=new Route(id,routeNumber);
+
+//            databaseRoute it's mean Tpath id
             databaseRoute.child(id).setValue(route);
+            System.out.println(databaseRoute + "**********************************");
+
 
             Toast.makeText(this,"save Route successfully",Toast.LENGTH_LONG).show();
         }else {
