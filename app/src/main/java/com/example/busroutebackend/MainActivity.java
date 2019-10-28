@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
          databaseTravellingPath.addValueEventListener(new ValueEventListener() {
             @Override
+            // read the firebase db and change the db changes
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 travellingPathList.clear();
                 for (DataSnapshot travellingSnapshot : dataSnapshot.getChildren()) {

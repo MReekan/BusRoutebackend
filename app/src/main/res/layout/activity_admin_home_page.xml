@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back4"
     tools:context=".AdminHomePageActivity"
     >
 
@@ -17,23 +18,23 @@
         android:layout_marginStart="87dp"
         android:layout_marginLeft="87dp"
         android:layout_marginTop="22dp"
-        android:text="Welcome to Home Page"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textColorLink="@color/colorPrimaryDark"
-        android:textSize="18sp" />
+        android:text="Welcome to Admin Page"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/buttonPath"
-        android:layout_width="227dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="77dp"
         android:onClick="addDetails"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="79dp"
-        android:text="Add Details"
+        android:text="Manage Details"
+        android:background="@android:color/holo_purple"
         android:textColorLink="@color/colorPrimary" />
 
     <ImageView
@@ -46,6 +47,6 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@drawable/bus1" />
+        app:srcCompat="@drawable/bus3" />
 
 </RelativeLayout>

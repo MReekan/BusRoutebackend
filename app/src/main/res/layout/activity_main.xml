@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back1"
     tools:context=".MainActivity">
 
     <TextView
@@ -89,6 +90,7 @@
         android:layout_marginTop="70dp"
         android:text="Add Travelling Path"
         android:textColor="@color/colorPrimary"
+        android:background="@android:color/holo_blue_light"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="248dp" />
 

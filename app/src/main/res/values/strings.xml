@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BusRouteBackEnd</string>
+    <string name="app_name">Admin Panel</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
